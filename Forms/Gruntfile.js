@@ -17,7 +17,7 @@ module.exports = function(grunt) {
 					precision: 7
 				},
 				files: {
-					"dist/css/forms.css": "src/scss/forms.scss"
+					"dist/css/forms.css": "./src/scss/forms.scss"
 				},
 			},
 		},
@@ -29,7 +29,7 @@ module.exports = function(grunt) {
 				}
 			},
 			watch_scss: {
-				files: ["src/scss/*.scss"],
+				files: ["src/**/*.scss"],
 				tasks: ["sass:dist"],
 				options: {
 					spawn: false,

@@ -1,1 +1,8 @@
-// 
+//
+.input-field {
+	display: inline-block;
+	width: 100%;
+	color: $text-color;
+	@include border-radius($input-border-radius-normal);
+	padding: $input-padding-y $input-padding-x;
+}

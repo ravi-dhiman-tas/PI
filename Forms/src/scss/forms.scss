@@ -1,2 +1,9 @@
-// input fields
+// varibales
+@import "var/bootstrap-vars";
+@import "var/custom-vars";
+
+// modules
+@import "module/input";
+
+// partials
 @import "partial/input";
