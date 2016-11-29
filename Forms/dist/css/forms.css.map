@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AACA,YAAa,CACZ,OAAO,CAAE,YAAY,CACrB,KAAK,CAAE,IAAI,CACX,KAAK,CCD2B,IAAU,CCD1C,kBAAkB,CDOqB,GAAqB,CCN5D,aAAa,CDM0B,GAAqB,CDH5D,OAAO,CAAE,SAAiC",
+"sources": ["../../src/scss/partial/_input.scss","../../src/scss/var/_custom-vars.scss","../../src/scss/module/_input.scss"],
 "names": [],
 "file": "forms.css"
 }
