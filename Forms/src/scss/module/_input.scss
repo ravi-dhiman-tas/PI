@@ -1,5 +1,36 @@
 //
+@mixin transition($trans...) {
+	-webkit-transition: $trans;
+	-moz-transition: $trans;
+	transition: $trans;
+}
+
 @mixin border-radius($r) {
 	-moz-border-radius: $r;
 	border-radius: $r;
+}
+
+@mixin box-sizing() {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@mixin border-focus($c) {
+	border-color: $c;
+}
+
+@mixin placeholder-color($c) {
+	&::-webkit-input-placeholder {
+		color: $c;
+	}
+	&::-moz-placeholder {
+		color: $c;
+	}
+	&:-ms-input-placeholder {
+		color: $c;
+	}
+	&:-moz-placeholder {
+		color: $c;
+	}
 }

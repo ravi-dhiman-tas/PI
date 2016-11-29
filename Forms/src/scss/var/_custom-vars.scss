@@ -3,10 +3,26 @@ $brand-primary:                  #545EE1;
 // Text colors
 $text-color:                     $gray-dark;
 
+// font size
+
 // Border radius
 $border-radius-normal:           0px;
 
 // Input field
+$input-placeholder-color:               lighten($text-color, 55%);
+$input-height:                          36px;
+
+$input-font-size:                       14px;
+$input-font-weight:                     200;
+$input-font-spacing:                    0.1px;
+$input-line-height:                     normal;
+
+$input-outline:                         none;
+$input-border-width:                    1px;
+$input-border-color:                    #dbdbdb;
+$input-border-hover-color:              darken($input-border-color, 15%);
+$input-border-focus-color:              $brand-primary;
 $input-border-radius-normal:            $border-radius-normal;
-$input-padding-x:                       10px;
-$input-padding-y:                       15px;
+
+$input-padding-x:                       12px;
+$input-padding-y:                       8px;
